@@ -1,0 +1,22 @@
+.Main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+body {
+    margin:0;
+    font-family: 'Helvetica', sans-serif;
+  	background: rgb(26, 188, 156);
+  	background: -moz-linear-gradient(-45deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
+  	background: -webkit-linear-gradient(-45deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
+  	background: linear-gradient(135deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
+}
