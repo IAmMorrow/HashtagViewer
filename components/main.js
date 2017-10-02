@@ -13,7 +13,7 @@ class Main extends React.Component {
   }
 
   componentDidMount () {
-    this.socket = new WebSocket(this.props.appData.serverIp + '/tweetWS');
+    this.socket = new WebSocket('ws://' + this.props.appData.serverIp + '/tweetWS');
     this.socket.onmessage = (data) => this.addTweet(JSON.parse(data.data));
   }
 
