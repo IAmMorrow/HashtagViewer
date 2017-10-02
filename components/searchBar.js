@@ -23,7 +23,7 @@ class searchBar extends React.Component {
         value: value
       });
 
-      this.timer = setTimeout(this.props.onSearch, 750, value);
+      if (value !== '#') this.timer = setTimeout(this.props.onSearch, 750, value);
     }
   }
 
