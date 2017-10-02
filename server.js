@@ -26,7 +26,8 @@ app.use('/static', express.static('dist'));
 app.get('/',
   function (req, res) {
     const appData = {
-      user: req.user
+      user: req.user,
+      serverIp: config.server.ip + ':' + config.server.port
     };
     res.render('home', { appData: JSON.stringify(appData) });
   });

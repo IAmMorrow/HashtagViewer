@@ -1,11 +1,12 @@
 {
     "twitter": {
-	"consumer_key": "",
-	"consumer_secret": "",
-	"access_token": "",
-	"access_token_secret": ""
+	     "consumer_key": "",
+	     "consumer_secret": "",
+	     "access_token": "",
+	     "access_token_secret": ""
     },
     "server": {
-	     "port": 3000
+      "ip": "",
+	    "port": 3000
     }
 }
